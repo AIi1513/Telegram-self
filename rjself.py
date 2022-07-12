@@ -80,8 +80,8 @@ rj-self help commands:
 '''
 
 #!-------------------------------- Client Setup
-api_id =2586462 #your api id 
-api_hash = '68542129131999986899b84a10a6170c'#your api hash
+api_id =11470796 #your api id 
+api_hash = 'bde6238853d031ff742dabcfe32b5efa'#your api hash
 bot = Client('amirairj-self', api_id, api_hash,workers=7)
 with bot:
     admin=bot.get_me().id
@@ -123,7 +123,7 @@ unmute_group = ChatPermissions(
     can_send_stickers=True)
 
 
-token='1121419247:AAHCd4sTctw3p8RiofS3Rhp4aPkuvREtlJm'
+token='5392913401:AAEwL3eGz3mwVM5KjsKk8ZQGeBvYYG8xAcY'
 #!-------------------------------- 
 
 
