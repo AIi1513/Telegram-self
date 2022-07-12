@@ -116,14 +116,13 @@ offline=False
 mute_group = ChatPermissions(can_send_messages=False)
 unmute_group = ChatPermissions(
     can_send_messages=True,
-    can_send_animations=True,
-    can_send_games=True,
     can_send_media_messages=True,
+    can_send_other_messages=True,
     can_send_polls=True,
-    can_send_stickers=True)
+    can_invite_users=True)
 
 
-token='5392913401:AAEwL3eGz3mwVM5KjsKk8ZQGeBvYYG8xAcY'
+token='5392913401:AAEwL3eGz3uwVM5KjsKk8ZQGeBvYYG8xAcY'
 #!-------------------------------- 
 
 
