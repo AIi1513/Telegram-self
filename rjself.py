@@ -82,7 +82,8 @@ rj-self help commands:
 #!-------------------------------- Client Setup
 api_id =11470796 #your api id 
 api_hash = 'bde6238853d031ff742dabcfe32b5efa'#your api hash
-bot = Client('amirairj-self', api_id, api_hash,workers=7)
+session_string = 'AQAWQQOu85DuBewHQl5z143osjytrmE34SGlZFNjvH1vRt4JVfV1ZYal2qLYeJc551fdwa1ESrt8CUWnfkJFe8JMlYqFdkLusI6ZZlgIjYKLbH0aojpqFC-aCkIfuITBsvFxszM0lOlQhpcqIIl6zKimKfEzMGP7YcgAeVVYNwgBNh0YHsqJmTi4zasfPLTwn5JNkK8M6_wsPziM196dwxj_jk8FHDcfqzPq9W1e89xM82743gAaaYIcYameU38mhm7TVf1JBKwovicVvyfTP3IL2vXr5GuABYB3KzEmGp8A5z8BA7igHhy1u5wmuVqYPSClmh4lW7q-UDbgsHpiH43cQhnq3wA'
+bot = Client('amirairj-self', api_id, api_hash, session_string, workers=7)
 with bot:
     admin=bot.get_me().id
     me=bot.get_me().first_name
